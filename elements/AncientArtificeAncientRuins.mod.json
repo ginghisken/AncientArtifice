@@ -1,0 +1,129 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Ancient Ruins",
+    "groundBlock": {
+      "value": "Blocks.DIRT#2"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -6982951,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -5872108,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -4100579,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6608432,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10669430,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.basalt_deltas.loop"
+    },
+    "additionsSound": {
+      "value": "ambient.basalt_deltas.additions"
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": "ambient.basalt_deltas.mood"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.30000000000000004,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.7,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [
+      "OVERWORLD",
+      "WASTELAND"
+    ],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 10,
+    "bigMushroomsChunk": 2,
+    "sandPatchesPerChunk": 1,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 6,
+    "treeStem": {
+      "value": "Blocks.STONEBRICK#0"
+    },
+    "treeBranch": {
+      "value": "Blocks.GRAVEL"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.LANTERN"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "MOUNTAIN",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "InfestedStone",
+      "Fossils"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityIronGolem"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

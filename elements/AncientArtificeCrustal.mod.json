@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ancientartifice_crustal",
+    "customModelName": "Normal",
+    "name": "Crustal",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 60,
+    "toolType": 1.0,
+    "damageCount": 16,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "specialInfo": [
+      "An ancient crystal of immense power...",
+      "Crusty."
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 4,
+    "saturation": 1.5,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}
