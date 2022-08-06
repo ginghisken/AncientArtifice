@@ -11,7 +11,8 @@
   ],
   "results": [
     {
-      "item": "create:cogwheel"
+      "item": "create:cogwheel",
+	  "amount": 4
     }
   ]
 }
