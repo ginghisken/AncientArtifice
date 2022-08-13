@@ -1,45 +1,17 @@
 
 package net.mcreator.ancientartifice.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.Hand;
-import net.minecraft.util.ActionResult;
-import net.minecraft.item.UseAction;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.attributes.Attributes;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.ai.attributes.Attribute;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.ancientartifice.procedures.PowerStickRightclickedProcedure;
-import net.mcreator.ancientartifice.AncientArtificeModElements;
-
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.List;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
-import com.google.common.collect.Multimap;
-import com.google.common.collect.ImmutableMultimap;
 
 @AncientArtificeModElements.ModElement.Tag
 public class PowerStickItem extends AncientArtificeModElements.ModElement {
+
 	@ObjectHolder("ancient_artifice:power_stick")
 	public static final Item block = null;
 
 	public PowerStickItem(AncientArtificeModElements instance) {
 		super(instance, 3);
+
 	}
 
 	@Override
@@ -48,6 +20,7 @@ public class PowerStickItem extends AncientArtificeModElements.ModElement {
 	}
 
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("power_stick");
@@ -100,9 +73,10 @@ public class PowerStickItem extends AncientArtificeModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			PowerStickRightclickedProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			PowerStickRightclickedProcedure.executeProcedure(Collections.emptyMap());
 			return ar;
 		}
+
 	}
+
 }
